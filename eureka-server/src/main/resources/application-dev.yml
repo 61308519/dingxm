@@ -1,0 +1,11 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: eureka-server #应用名称
+eureka:
+  client:
+    register-with-eureka: false #表示是否注册自己的信息EurekaServer，默认为true
+    #fetch-registry: false #表示是否拉取其他服务的信息，默认为true
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka

@@ -1,0 +1,9 @@
+server:
+  port: 8888 #端口
+spring:
+  application:
+    name: user-service #应用名称 服务与服务之间相互调用一般都是根据这个name 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9999/eureka

@@ -1,0 +1,4 @@
+20181118
+	1.实现客户端的ribbon调用。
+	2.获取配置文件中的配置。
+	3.feign的应用。见UserFeignController的/feignHello
